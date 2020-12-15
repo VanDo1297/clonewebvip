@@ -1,0 +1,21 @@
+.custom {
+    margin-left: 2em;
+    margin-top: 2em;
+    padding: 16px 32px;
+    border-radius: 32px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.pagePrev {
+    color: gray;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.breadcrumbItem {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}

@@ -1,20 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: auto;">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="logo-tek-removebg-preview.svg" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="theme-color" content="#000000" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link
+      href="./assets/bundles/datatables/plugins/bootstrap/dataTables.bootstrap4.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="./assets/page/css/basic.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/redstar/css/extra_pages.css" />
+    <link href="./assets/css/util.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/main.css" rel="stylesheet" type="text/css" />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/redstar/css/theme-color.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- icons -->
+    <link
+      href="./assets/bundles/simple-line-icons/simple-line-icons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/redstar/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/bundles/iconic/css/material-design-iconic-font.min.css"
+    />
+
+    <link
+      href="chrome-extension://pflmllfnnabikmfkkaddkoolinlfninn/style.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link
+      href="./assets/vendor/animate/animate.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/vendor/css-hamburgers/hamburgers.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/vendor/animsition/css/animsition.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/vendor/daterangepicker/daterangepicker.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    
+    <link
+      href="./assets/vendor/select2/select2.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--bootstrap -->
+    <link
+      href="./assets/bundles/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    
+    <!-- Material Design Lite CSS -->
+    <link rel="stylesheet" href="./assets/bundles/material/material.min.css" />
+    <link rel="stylesheet" href="./assets/redstar/css/material_style.css" />
+    <!-- Theme Styles -->
+    <link
+      href="./assets/components/jquery.datetimepicker/build/jquery.datetimepicker.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/redstar/css/plugins.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/redstar/css/style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/redstar/css/responsive.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="./assets/redstar/css/theme_style.css"
+      rel="stylesheet"
+      id="rt_style_components"
+      type="text/css"
+    />
+    <link
+      href="./assets/css/font_open_sans.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./assets/css/material_icon.css" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- data tables -->
+
+    <link href="./assets/page/css/master_data_index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./assets/components/fullcalendar/dist/fullcalendar.min.css"
+    />
+    <link
+      href="./assets/components/flatpickr/dist/flatpickr.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/select2/select2.min.css" rel="stylesheet" />
+    <link href="./assets/DataTables/datatables.css" rel="stylesheet" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/redstar/img/favicon.ico" />
+    <!-- toast -->
+    <link href="./assets/css/toastr.min.css" rel="stylesheet" type="text/css" />
+
+    
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,20 +161,58 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <meta property="og:title" content="React Boilerplate Example App" />
+    <meta property="og:description" content="" />
+    <meta
+      property="og:image"
+      content="https://repository-images.githubusercontent.com/250347048/15514f00-8713-11ea-9f9d-796a89b5de4d"
+    />
+    <title>TEKMEDI WEB VIP</title>
+    <meta name="description" content="" />
   </head>
-  <body>
+  <body
+    class="
+    page-header-fixed
+     sidemenu-closed-hidelogo 
+     page-content-white page-md 
+     page-full-width header-white white-sidebar-color
+      logo-indigo"
+      style="height: auto;"
+  >
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- Inter Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./assets/components/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/components/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script src="./assets/components/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="./assets/components/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="./assets/components/remarkable-bootstrap-notify/dist/bootstrap-notify.min.js"></script>
+    <script src="./assets/components/app/js/app.min.js"></script>
+    <script src="./assets/vendor/jquery-cookie/jquery.cookie.js"></script>
+    <script src="./assets/js/ajaxCommon.js"></script>
+    <!-- <script src="./assets/page/js/basic.js"></script> -->
+    <script src="./assets/components/toastr/min/toastr.min.js"></script>
+    <script src="./assets/theme-color.js"></script>
+    <script src="./assets/js/classie.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+      $('body').on('hidden.bs.modal', '.modal', function () {
+     $(this).removeData('bs.modal');
+  });
+    </script>
+    <script>
+      $('#exampleModal').on('shown.bs.modal', function () {
+    $('#fullName').focus();
+});
+    </script>
   </body>
 </html>
+

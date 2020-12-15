@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import VCB from './VCB/VCB';
+import VCB1 from './VCB/Refactor/VCB';
+import {BrowserRouter,Switch, Route} from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        {/* <VCB /> */}
+        <Route exact path='/' component={VCB} />
+        <Route exact path='/vcb' component={VCB1} />
+      </Switch>
+    </BrowserRouter>
   );
 }
+
 
 export default App;

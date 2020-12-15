@@ -1,0 +1,73 @@
+.form-group {
+  margin-bottom:  0 !important;
+}
+.form-group label{
+  font-weight: 600;
+}
+.errors{
+  color: red;
+}
+.modal-dialog{
+  margin-left: 28%;
+}
+.modal-open .modal{
+  width: 101%;
+}
+.modal-content {
+  width: 170% !important;
+}
+.erros label {
+  font-weight: 500;
+  font-size: 16px;
+}
+.MuiAutocomplete-popper{
+  z-index: 1006000 !important;
+}
+.swal2-container{
+  z-index: 100600 !important;
+}
+.MuiFormControl-fullWidth {
+  width: 100% !important;
+}
+.MuiInputBase-input{
+  height: 3px !important;
+  color: black !important;
+}
+.MuiAutocomplete-inputRoot .MuiOutlinedInput-notchedOutline {
+  border-color: hotpink;
+}
+.MuiAutocomplete-inputRoot:hover .MuiOutlinedInput-notchedOutline {
+  border-color: red;
+
+}
+.MuiAutocomplete-inputRoot.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: yellow;
+}
+.MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  min-width: 100px !important;
+}
+.modal-body{
+  padding-top: 5px;
+}
+.modal-body .makeStyles-instructions-3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.modal .modal-header .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.MuiStepper-root{
+  padding: 0px !important;
+}
+.makeStyles-root-4{
+  width: 30px;
+  height: 30px;
+}
+.MuiInputBase-root.Mui-disabled{
+  background: #EEEEEE;
+}
+.MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-notchedOutline{
+  border-color: #ccc !important;
+}

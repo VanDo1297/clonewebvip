@@ -1,0 +1,11 @@
+
+  .btn-icon-edit {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 4px;
+    background: #DD0000;
+  }
+  .btn-icon-edit i {
+    font-size: 15px;
+  color:#ffffff}

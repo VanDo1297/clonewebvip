@@ -1,0 +1,170 @@
+﻿.modal .select2-container {
+    max-width: 100%;
+    padding-left: 10px;
+    margin-right: 0px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+
+
+.modal .toggle-switch__helper:before {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+.position-custom {
+    transform: translate(50%,15px);
+}
+
+@media screen and (max-width: 768px) {
+    .position-custom {
+        transform: translate(25%, 15px);
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .position-custom {
+        transform: translate(0, 15px);
+    }
+}
+
+.animation-main {
+    position: relative;
+}
+
+.card-body-custom {
+    padding: 24px !important;
+}
+
+#animation-1 {
+    top: 15px;
+    left: 275px;
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+#animation-2 {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s;
+    top: 15px;
+    right: 275px;
+    z-index: 0;
+}
+#animation-3 {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s;
+    top: 15px;
+    right: 275px;
+    z-index: 0;
+}
+
+.element-hiden {
+    min-height: 256px;
+}
+
+@media screen and (max-width: 2565px) {
+    #animation-1 {
+        left: 560px;
+    }
+
+    #animation-2 {
+        right: 560px;
+    }
+    #animation-3 {
+        right: 560px;
+    }
+}
+
+@media screen and (max-width: 1960px) {
+    #animation-1 {
+        left: 400px;
+    }
+
+    #animation-2 {
+        right: 400px;
+    }
+    #animation-3 {
+        right: 400px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #animation-1 {
+        left: 285px;
+    }
+
+    #animation-2 {
+        right: 285px;
+    }
+    #animation-3 {
+        right: 285px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #animation-1 {
+        left: 245px;
+    }
+
+    #animation-2 {
+        right: 245px;
+    }
+    #animation-3 {
+        right: 245px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #animation-1 {
+        left: 190px;
+    }
+
+    #animation-2 {
+        right: 190px;
+    }
+    #animation-3 {
+        right: 190px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    #animation-1 {
+        left: 0;
+    }
+
+    #animation-2 {
+        right: 0;
+    }
+    #animation-3 {
+        right: 0;
+    }
+
+    .element-hiden {
+        min-height: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #animation-1 {
+        left: 0px;
+    }
+
+    #animation-2 {
+        right: 0px;
+    }
+
+    #animation-3 {
+        right: 0px;
+    }
+
+    .element-hiden {
+        min-height: 0;
+    }
+}
